@@ -3,8 +3,6 @@ namespace Luis\Petslife\views;
 use Luis\Petslife\views\layouts\Head;
 use Luis\Petslife\views\layouts\Foot;
 
-use Luis\Petslife\controllers\Home;
-
 $head = new Head;
 echo $head->index();
 
